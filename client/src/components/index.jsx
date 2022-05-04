@@ -6,8 +6,10 @@ import Review from './Review';
 import FilterCampaigns from './filterCampaigns';
 import DonationButton from './donateForm/DonateButton';
 import ReportsForm from './ReportsForm';
+import HeaderAllCampaigns from './HeaderAllCampaigns';
 
 export {
+  HeaderAllCampaigns,
   FilterCampaigns,
   Nav,
   Signin,

@@ -7,6 +7,7 @@ import {
   Review,
   ReportsForm,
   OurMission,
+  HeaderAllCampaigns,
 } from './components';
 import store from './redux/app/store';
 import { getUserData } from './redux/feature/user/userSlice';
@@ -32,7 +33,7 @@ function App() {
         <Route
           path="/campaigns"
           element={
-            <h1>campaigns</h1>
+            <HeaderAllCampaigns />
             }
         />
         <Route
